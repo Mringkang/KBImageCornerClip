@@ -26,7 +26,9 @@
     [self.view addSubview:imageView];
     
     
-    // 设置图片
+    
+    //----------------设置图片----------------
+    
     UIImage *image = [UIImage imageNamed:@"demo.jpg"];
     
     [image kb_cornerImageWithCorlor:[UIColor whiteColor] imageSize:imageView.bounds.size completion:^(UIImage *image) {
