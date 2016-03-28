@@ -13,6 +13,7 @@
 		4ECDD3401CA919D80008377D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECDD33E1CA919D80008377D /* Main.storyboard */; };
 		4ECDD3421CA919D80008377D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECDD3411CA919D80008377D /* Assets.xcassets */; };
 		4ECDD3451CA919D80008377D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECDD3431CA919D80008377D /* LaunchScreen.storyboard */; };
+		4ECDD34F1CA91B350008377D /* UIImage+ImageClip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECDD34E1CA91B350008377D /* UIImage+ImageClip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4ECDD3411CA919D80008377D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ECDD3441CA919D80008377D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ECDD3461CA919D80008377D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECDD34D1CA91B350008377D /* UIImage+ImageClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageClip.h"; sourceTree = "<group>"; };
+		4ECDD34E1CA91B350008377D /* UIImage+ImageClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageClip.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		4ECDD34C1CA91A3C0008377D /* KBImageExtension */ = {
 			isa = PBXGroup;
 			children = (
+				4ECDD34D1CA91B350008377D /* UIImage+ImageClip.h */,
+				4ECDD34E1CA91B350008377D /* UIImage+ImageClip.m */,
 			);
 			path = KBImageExtension;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ECDD33D1CA919D70008377D /* ViewController.m in Sources */,
+				4ECDD34F1CA91B350008377D /* UIImage+ImageClip.m in Sources */,
 				4ECDD33A1CA919D70008377D /* AppDelegate.m in Sources */,
 				4ECDD3371CA919D70008377D /* main.m in Sources */,
 			);
