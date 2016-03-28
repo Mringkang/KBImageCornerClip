@@ -36,7 +36,7 @@
         // 0.6获取结果
         UIImage *result = UIGraphicsGetImageFromCurrentImageContext();
         
-        // 0.7 关闭上下文
+        // 0.7关闭上下文
         UIGraphicsEndImageContext();
         
         /**
